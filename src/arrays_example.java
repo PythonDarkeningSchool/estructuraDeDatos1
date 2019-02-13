@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class arreglos {
+public class arrays_example {
     public static void main(String[] args){
 
         int count = 5, data;
