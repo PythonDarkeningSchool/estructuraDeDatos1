@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f29557-47c3-4c7f-a12a-5dfff5e1179a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/java.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/estructuraDeDatos1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/estructuraDeDatos1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/estructuraDeDatos1/arre_der_izquierda.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/estructuraDeDatos1/arre_izq_derecha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/estructuraDeDatos1/arreglos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglos_derecha_izquierda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglos_ejemplo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arreglos_izquierda_derecha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/estructuraDeDatos1/arrays_left_right.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/estructuraDeDatos1/arrays_right_left.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_left_right.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays_right_left.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +21,38 @@
     <splitter split-orientation="horizontal" split-proportion="0.70757735">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/arrays_left_right.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/array_remove_element_left_right.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+                <state relative-caret-position="150">
+                  <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/arrays__insert_element_left_right.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/arrays_insert_element_right_left.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/array_remove_element_right_left.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -35,7 +61,7 @@
             <entry file="file://$PROJECT_DIR$/src/matrixGenerator.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="885">
-                  <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+                  <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -44,16 +70,7 @@
             <entry file="file://$PROJECT_DIR$/src/arrays_example.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
-                  <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/arrays_right_left.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+                  <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
                 </state>
               </provider>
             </entry>
@@ -66,7 +83,7 @@
             <entry file="file://$PROJECT_DIR$/src/arraysTools.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="301">
-                  <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+                  <caret line="32" selection-start-line="32" selection-end-line="32" />
                   <folding>
                     <element signature="e#0#1168#0" expanded="true" />
                   </folding>
@@ -106,12 +123,18 @@
         <option value="$PROJECT_DIR$/src/arreglos_ejemplo.java" />
         <option value="$PROJECT_DIR$/src/arreglos_derecha_izquierda.java" />
         <option value="$PROJECT_DIR$/src/arrays_example.java" />
-        <option value="$PROJECT_DIR$/src/arrays_right_left.java" />
         <option value="$PROJECT_DIR$/src/tableGenerator.java" />
         <option value="$PROJECT_DIR$/src/matrixGenerator.java" />
         <option value="$PROJECT_DIR$/src/arrays_tools.java" />
         <option value="$PROJECT_DIR$/src/arraysTools.java" />
+        <option value="$PROJECT_DIR$/src/todo.java" />
+        <option value="$PROJECT_DIR$/src/arrays_right_left.java" />
         <option value="$PROJECT_DIR$/src/arrays_left_right.java" />
+        <option value="$PROJECT_DIR$/src/array_remove_element.java" />
+        <option value="$PROJECT_DIR$/src/array_remove_element_left_right.java" />
+        <option value="$PROJECT_DIR$/src/array_remove_element_right_left.java" />
+        <option value="$PROJECT_DIR$/src/arrays__insert_element_left_right.java" />
+        <option value="$PROJECT_DIR$/src/arrays_insert_element_right_left.java" />
       </list>
     </option>
   </component>
@@ -139,6 +162,10 @@
               <item name="estructuraDeDatos1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="estructuraDeDatos1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -151,7 +178,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550090880213" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550094733966" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/javaModules" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -171,37 +198,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.arrays_left_right">
-    <configuration name="arrays_left_right" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays_left_right" />
+  <component name="RunManager" selected="Application.arrays_insert_element_right_left">
+    <configuration name="array_remove_element" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_remove_element" />
       <module name="estructuraDeDatos1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arre_der_izquierda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arre_der_izquierda" />
+    <configuration name="array_remove_element_right_left" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_remove_element_right_left" />
       <module name="estructuraDeDatos1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arre_izq_derecha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arre_izq_derecha" />
+    <configuration name="arrays_insert_element_right_left" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays_insert_element_right_left" />
       <module name="estructuraDeDatos1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arreglos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arreglos" />
+    <configuration name="arrays_right_left" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays_right_left" />
       <module name="estructuraDeDatos1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arreglos_derecha_izquierda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arreglos_derecha_izquierda" />
+    <configuration name="todo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="todo" />
       <module name="estructuraDeDatos1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -209,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.arrays_left_right" />
-        <item itemvalue="Application.arreglos_derecha_izquierda" />
-        <item itemvalue="Application.arre_der_izquierda" />
-        <item itemvalue="Application.arre_izq_derecha" />
-        <item itemvalue="Application.arreglos" />
+        <item itemvalue="Application.arrays_insert_element_right_left" />
+        <item itemvalue="Application.array_remove_element_right_left" />
+        <item itemvalue="Application.array_remove_element" />
+        <item itemvalue="Application.arrays_right_left" />
+        <item itemvalue="Application.todo" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +261,7 @@
     <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.13180363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13180363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -294,20 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays_right_left.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays_example.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="63" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays_tools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -318,24 +331,90 @@
     <entry file="file://$PROJECT_DIR$/src/matrixGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arraysTools.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#1168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays_example.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array_remove_element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays_left_right.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="17" column="88" selection-start-line="17" selection-start-column="88" selection-end-line="17" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays_right_left.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array_remove_element_right_left.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array_remove_element_left_right.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays__insert_element_left_right.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays_insert_element_right_left.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -403,6 +482,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>java</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

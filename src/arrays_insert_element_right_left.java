@@ -1,7 +1,7 @@
 // standard libraries
 import java.util.Scanner;
 
-public class arrays_left_right {
+public class arrays_insert_element_right_left {
 
     public static void main(String[] args){
 
@@ -10,17 +10,17 @@ public class arrays_left_right {
         /*COMMENT/UNCOMMENT THIS DATA TO SEE HOW THE PROGRAM WORKS*/
         //int[] array = new int[arrayPlaces]; // declare an array with 6 empty spaces
         /*COMMENT/UNCOMMENT THIS DATA TO SEE HOW THE PROGRAM WORKS*/
-        int[] array = {11, 0, 33 , 44, 55, 0}; // declare an array with 1 empty space
+        int[] array = {11, 0, 33 , 0, 55, 0}; // declare an array with 1 empty space
 
         // initializing the scanner as an object
         Scanner s=new Scanner(System.in);
 
         // System.out.println(Arrays.toString(array)); // print the content of the array
 
-        System.out.println("\nLeft to right insertion\n");
+        System.out.println("\n== Right to left insertion ==\n");
 
         // iterating over the array in order to fill out (if any)
-        for(int i=0; i < array.length; i++){
+        for(int i = array.length -1; i >= 0; i--){
             // check if the array is full
             if(!arraysTools.theArrayIsFull(array)) {
                 // the array is not full
@@ -40,7 +40,7 @@ public class arrays_left_right {
                     System.out.println(
                             "(INFO) The index [" + i + "] is not available, trying in the closest index available");
 
-                    for(int ni = i + 1; ni < array.length; ni++){
+                    for(int ni = i -1; ni >=0; ni--){
                         if(array[ni] == 0){
                             // insert in the next available position
                             array[ni] = dataInput;
