@@ -33,4 +33,19 @@ public class arraysTools{
 
         return FlipTable.of(headers, matrixContent);
     }
+
+    public static int getAvailableIndex(int[] array){
+        /*Return the closest available index to the left in the array*/
+
+        int index = 404;
+
+        for(int i=0; i < array.length; i++){
+            if(array[i] == 0){
+                index = i;
+                break;
+            }
+        }
+
+        return index;
+    }
 }

@@ -1,7 +1,7 @@
 // standard libraries
 import java.util.Scanner;
 
-public class arrays__insert_element_left_right {
+public class arrays_insert_element_left_right {
 
     public static void main(String[] args){
 
@@ -10,7 +10,7 @@ public class arrays__insert_element_left_right {
         /*COMMENT/UNCOMMENT THIS DATA TO SEE HOW THE PROGRAM WORKS*/
         //int[] array = new int[arrayPlaces]; // declare an array with 6 empty spaces
         /*COMMENT/UNCOMMENT THIS DATA TO SEE HOW THE PROGRAM WORKS*/
-        int[] array = {11, 0, 33 , 44, 55, 0}; // declare an array with 1 empty space
+        int[] array = {2, 0, 0 ,0, 0, 1}; // declare an array with 1 empty space
 
         // initializing the scanner as an object
         Scanner s=new Scanner(System.in);
