@@ -8,9 +8,9 @@ public class arrays_insert_element_right_left {
         int dataInput, arrayPlaces = 6;
 
         /*COMMENT/UNCOMMENT THIS DATA TO SEE HOW THE PROGRAM WORKS*/
-        //int[] array = new int[arrayPlaces]; // declare an array with 6 empty spaces
+        int[] array = new int[arrayPlaces]; // declare an array with 6 empty spaces
         /*COMMENT/UNCOMMENT THIS DATA TO SEE HOW THE PROGRAM WORKS*/
-        int[] array = {11, 0, 33 , 0, 55, 0}; // declare an array with 1 empty space
+        //int[] array = {0, 0, 33 , 0, 55, 0}; // declare an array with 1 empty space
 
         // initializing the scanner as an object
         Scanner s=new Scanner(System.in);

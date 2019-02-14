@@ -48,4 +48,14 @@ public class arraysTools{
 
         return index;
     }
+
+    public static boolean thisElementExists(int[] array, int element){
+
+        for(int arrayElement: array){
+            if(arrayElement == element){
+                return true;
+            }
+        }
+        return false;
+    }
 }

@@ -18,15 +18,22 @@ public class array_remove_element_right_left {
             System.out.print("Enter the element to be deleted: ");
             int elem = in.nextInt();
 
-            for(int i = intArr.length -1; i >= 0; i--){
-                // search for the first match and exit the loop
-                if(intArr[i] == elem){
-                    intArr[i] = 0;
-                    break;
+            if(!arraysTools.thisElementExists(intArr, elem)){
+                System.out.println("The data given does not exists in the array");
+            }
+            else{
+                for(int i = intArr.length -1; i >= 0; i--){
+                    // search for the first match and exit the loop
+                    if(intArr[i] == elem){
+                        intArr[i] = 0;
+                        break;
+                    }
                 }
+
+                System.out.print("\nModified array is: " + Arrays.toString(intArr) + "\n\n");
             }
 
-            System.out.print("\nModified array is: " + Arrays.toString(intArr) + "\n\n");
+
         }
         else{
             System.out.println("The array is empty");
