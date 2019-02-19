@@ -22,23 +22,23 @@ public class employee {
         return code;
     }
 
-    public int setCode(int code){
-        this.code = code;
-    }
-
     public String getName(){
         return name;
-    }
-
-    public String setName(String name){
-        this.name = name;
     }
 
     public String getTurn(){
         return turn;
     }
 
-    public String setTurn(String turn){
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setCode(int code){
+        this.code = code;
+    }
+
+    public void setTurn(String turn){
         this.turn = turn;
     }
 
