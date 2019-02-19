@@ -27,7 +27,7 @@ public class mainMenu {
                         stackMenu.menu();
                         break;
                     case 2:
-                        break;
+                        break outer;
                     case 3:
                         break outer;
                     default:
