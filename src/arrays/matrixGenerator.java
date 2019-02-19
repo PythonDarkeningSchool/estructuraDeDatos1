@@ -42,6 +42,7 @@ public class matrixGenerator {
         /*Fill out the matrix with their content*/
 
         int contentCount = 0;
+
         for (int row = 0; row < this.rows; row++){
             matrix[row][1] = String.valueOf(content[contentCount]);
             contentCount++;
