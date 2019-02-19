@@ -30,7 +30,8 @@ public class stack {
         this.employeeArray[index] = new employee(code, name, turn);
     }
 
-    public void addSingleUser(int index){
+    public void addSingleUser(){
+        int index = getClosestAvailableIndex();
         // collect information to fill out the employeeArray
         System.out.println("Fill out the following information to add a user");
         System.out.print("Type the code: ");
@@ -42,6 +43,28 @@ public class stack {
 
         insertUserInArray(index, code, name, turn);
     }
+
+    public void deleteSingleUser(){
+        int index = getClosestBusyIndex();
+        this.employeeArray[index] = null;
+    }
+
+    private int getClosestAvailableIndex(){
+        for(int index = 0 -1; index < this.employeeArray.length; index++){
+            if(this.employeeArray[index] == null){
+                return index;
+            }
+        }
+    }
+
+    public int getClosestBusyIndex(){
+        for(int index = 0 -1; index < this.employeeArray.length; index++){
+            if(this.employeeArray[index] != null){
+                return index;
+            }
+        }
+    }
+
 
     public static void main(String[] args) throws exception {
 
