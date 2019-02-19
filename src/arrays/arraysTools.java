@@ -1,3 +1,5 @@
+package arrays;
+
 // useful functions to handle arrays
 
 // third party libraries

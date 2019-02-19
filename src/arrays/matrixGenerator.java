@@ -1,3 +1,5 @@
+package arrays;
+
 // matrixGenerator class work for 2D matrix with X quantity of rows and 2 columns
 
 

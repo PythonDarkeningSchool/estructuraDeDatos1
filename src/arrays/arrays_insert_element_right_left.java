@@ -1,61 +1,48 @@
+package arrays;
+
 // standard libraries
 import java.util.Scanner;
 
-public class arrays_insert_element_left_right {
+public class arrays_insert_element_right_left {
 
     public static void main(String[] args){
 
         int dataInput, arrayPlaces = 6;
 
         /*COMMENT/UNCOMMENT THIS DATA TO SEE HOW THE PROGRAM WORKS*/
-        //int[] array = new int[arrayPlaces]; // declare an array with 6 empty spaces
+        int[] array = new int[arrayPlaces]; // declare an array with 6 empty spaces
         /*COMMENT/UNCOMMENT THIS DATA TO SEE HOW THE PROGRAM WORKS*/
-        int[] array = {2, 0, 0 ,0, 0, 1}; // declare an array with 1 empty space
+        //int[] array = {0, 0, 33 , 0, 55, 0}; // declare an array with 1 empty space
 
         // initializing the scanner as an object
         Scanner s=new Scanner(System.in);
 
         // System.out.println(Arrays.toString(array)); // print the content of the array
 
-        System.out.println("\n== Left to right insertion ==\n");
+        System.out.println("\n== Right to left insertion ==\n");
 
         // iterating over the array in order to fill out (if any)
-        for(int i=0; i < array.length; i++){
+        for(int i = array.length -1; i >= 0; i--){
             // check if the array is full
             if(!arraysTools.theArrayIsFull(array)) {
                 // the array is not full
-                System.out.print("(input) Type the data for the position (#" + i + ") for the array: ");
+                int availableIndex = arraysTools.getAvailableIndex(array);
+
+                System.out.print("(input) Type the data to insert in the array: ");
                 dataInput = s.nextInt();
 
                 // Validating if the current index is available
-                if (array[i] == 0){
-                    // The index is available
-                    array[i] = dataInput;
+                if(availableIndex != 404){
+                //if (array[i] == 0){
+                    // A closest index from the left is available
+                    array[availableIndex] = dataInput;
                     System.out.println(
-                            "(OK) The data (" + dataInput + ") was inserted in the position [" + i + "] correctly\n");
+                            "(OK) The data (" + dataInput + ") was inserted in the position [" + availableIndex + "] correctly\n");
                 }
                 else {
-                    // The current index is not available, trying in the closest index available
-                    boolean flag = false;
-                    System.out.println(
-                            "(INFO) The index [" + i + "] is not available, trying in the closest index available");
-
-                    for(int ni = i + 1; ni < array.length; ni++){
-                        if(array[ni] == 0){
-                            // insert in the next available position
-                            array[ni] = dataInput;
-                            System.out.println(
-                                    "(OK) The data (" + dataInput + ") was inserted in the position [" + ni + "] correctly\n");
-                            flag = true;
-                            break;
-                        }
-                    }
-
-                    if(!flag){
                         System.out.println(
                                 "(FAIL) There is not more available spaces in the array to insert the data (" + dataInput + "]");
                         break; // finish the main loop
-                    }
                 }
             }
             else{
