@@ -62,6 +62,110 @@ public class handleArray {
         insertUserInArray(index, code, name, turn);
     }
 
+
+    public void updateUser(int index) {
+
+        // Define variables
+        Scanner in = new Scanner(System.in);
+
+        // Get the current values
+        int code = this.employeeArray[index].getCode(); // this could be overwrite
+        String name = this.employeeArray[index].getName(); // this could be overwrite
+        String turn = this.employeeArray[index].getTurn(); // this could be overwrite
+
+        outerA:
+        while(true){
+            System.out.println(String.format("Current code => (%d), do you want to change it?", code));
+            System.out.println("1. Yes");
+            System.out.println("1. No\n");
+            System.out.println("=> ");
+
+
+            try{
+                int answerA = in.nextInt();
+
+                switch (answerA){
+                    case 1:
+                        while(true){
+                            try{
+                                System.out.print("Type the new code: ");
+                                code = in.nextInt();
+                                break;
+                            }
+                            catch(InputMismatchException error){
+                                System.out.println("(error) Invalid code\n");
+                                in.next(); // clear scanner wrong input
+                            }
+                        }
+                        break outerA;
+
+                    case 2:
+                        break outerA;
+                }
+            }
+            catch(InputMismatchException error){
+                System.out.print("\n(error) Invalid option");
+                in.next(); // clear scanner wrong input
+            }
+        }
+
+
+        outerB:
+        while(true){
+            System.out.println(String.format("Current name => (%s), do you want to change it?", name));
+            System.out.println("1. Yes");
+            System.out.println("1. No\n");
+            System.out.println("=> ");
+
+
+            try{
+                int answerB = in.nextInt();
+
+                switch (answerB){
+                    case 1:
+                        System.out.print("Type the new name: ");
+                        name = in.next();
+                        break outerB;
+                    case 2:
+                        break outerB;
+                }
+            }
+            catch(InputMismatchException error){
+                System.out.print("\n(error) Invalid option");
+                in.next(); // clear scanner wrong input
+            }
+        }
+
+
+        outerC:
+        while(true){
+            System.out.println(String.format("Current turn => (%s), do you want to change it?", turn));
+            System.out.println("1. Yes");
+            System.out.println("1. No\n");
+            System.out.println("=> ");
+
+
+            try{
+                int answerC = in.nextInt();
+
+                switch (answerC){
+                    case 1:
+                        System.out.print("Type the new name: ");
+                        name = in.next();
+                        break outerC;
+                    case 2:
+                        break outerC;
+                }
+            }
+            catch(InputMismatchException error){
+                System.out.print("\n(error) Invalid option");
+                in.next(); // clear scanner wrong input
+            }
+        }
+
+        insertUserInArray(index, code, name, turn);
+    }
+
     public void deleteSingleUser() {
         int index = getClosestBusyIndex();
         this.employeeArray[index] = null;
@@ -91,5 +195,15 @@ public class handleArray {
         }
 
         return this.index;
+    }
+
+    public boolean thisIndexIsNull(int index) {
+        boolean flag = false;
+
+        if(this.employeeArray[index] == null){
+            flag = true;
+        }
+
+        return flag;
     }
 }
