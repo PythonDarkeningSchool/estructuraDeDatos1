@@ -27,7 +27,8 @@ public class mainMenu {
                         stackMenu.menu();
                         break;
                     case 2:
-                        break outer;
+                        queueMenu.menu();
+                        break;
                     case 3:
                         break outer;
                     default:

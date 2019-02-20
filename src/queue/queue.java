@@ -1,16 +1,16 @@
-package stack;
+package queue;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import common.employee;
 
-public class stack {
+public class queue {
 
     private int elements, index = 0;
     private employee[] employeeArray; // Create the object
 
-    public stack(int elements) {
+    public queue(int elements) {
         this.elements = elements;
         this.employeeArray = new employee[this.elements]; // Initialize the object array with user values as null
     }
@@ -63,8 +63,7 @@ public class stack {
     }
 
     public void deleteSingleUser() {
-        int index = getClosestBusyIndex();
-        this.employeeArray[index] = null;
+        this.employeeArray[0] = null;
     }
 
     private int getClosestAvailableIndex() {
@@ -87,5 +86,15 @@ public class stack {
         }
 
         return this.index;
+    }
+
+    public void moveArrayElementsOnePositionLeft(){
+
+        for(int i = 1; i < this.employeeArray.length; i++){
+            // Move the current element one position to left
+            this.employeeArray[i -1] = this.employeeArray[i];
+            // Clean the current position
+            this.employeeArray[i] = null;
+        }
     }
 }
