@@ -15,7 +15,8 @@ public class mainMenu {
             System.out.println("\n\nChoose an option\n");
             System.out.println("1. Stack program");
             System.out.println("2. Queue program");
-            System.out.println("3. Exit\n");
+            System.out.println("3. Array");
+            System.out.println("4. Exit\n");
             System.out.print("=> ");
 
             try{
@@ -30,6 +31,9 @@ public class mainMenu {
                         queueMenu.menu();
                         break;
                     case 3:
+                        handleArrayMenu.menu();
+                        break;
+                    case 4:
                         break outer;
                     default:
                         System.out.print("\n(error) Invalid option");

@@ -55,7 +55,7 @@ public class queueMenu {
                         // (Pre-condition #1) check if the last position in the array object is not null
                         if(queueArray[queueElements -1] != null){
 
-                            int code = queueArray[0].getCode();
+                            /*int code = queueArray[0].getCode();
                             String name = queueArray[0].getName();
                             String turn = queueArray[0].getTurn();
                             // Discard the first element and move the others one position to the left
@@ -66,7 +66,8 @@ public class queueMenu {
                             // Delete the first user in the array
                             queue.deleteSingleUser();
                             queue.moveArrayElementsOnePositionLeft();
-                            queue.addSingleUser();
+                            queue.addSingleUser();*/
+                            System.out.println("\nThe queue is full, please delete a user");
                         }
                         else{
                             // (Pre-condition #2) Find the closest index available from left to right
