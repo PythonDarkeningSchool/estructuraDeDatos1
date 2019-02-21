@@ -62,6 +62,35 @@ public class handleArray {
         insertUserInArray(index, code, name, turn);
     }
 
+    public void replaceSingleUser(int index){
+
+        // Define variables
+        Scanner in = new Scanner(System.in);
+        int code;
+
+
+        // Set validations
+        while(true){
+            try{
+                System.out.print("\nType the new code: ");
+                code = in.nextInt();
+                break;
+            }
+            catch(InputMismatchException error){
+                System.out.println("(error) Invalid code\n");
+                in.next(); // clear scanner wrong input
+            }
+
+        }
+
+        System.out.print("Type the new name: ");
+        String name = in.next();
+
+        System.out.print("Type the new turn: ");
+        String turn = in.next();
+
+        insertUserInArray(index, code, name, turn);
+    }
 
     public void updateUser(int index) {
 
@@ -75,10 +104,10 @@ public class handleArray {
 
         outerA:
         while(true){
-            System.out.println(String.format("Current code => (%d), do you want to change it?", code));
+            System.out.println(String.format("\nCurrent code => (%d), do you want to change it?\n", code));
             System.out.println("1. Yes");
-            System.out.println("1. No\n");
-            System.out.println("=> ");
+            System.out.println("2. No\n");
+            System.out.print("=> ");
 
 
             try{
@@ -112,10 +141,10 @@ public class handleArray {
 
         outerB:
         while(true){
-            System.out.println(String.format("Current name => (%s), do you want to change it?", name));
+            System.out.println(String.format("\nCurrent name => (%s), do you want to change it?\n", name));
             System.out.println("1. Yes");
-            System.out.println("1. No\n");
-            System.out.println("=> ");
+            System.out.println("2. No\n");
+            System.out.print("=> ");
 
 
             try{
@@ -139,10 +168,10 @@ public class handleArray {
 
         outerC:
         while(true){
-            System.out.println(String.format("Current turn => (%s), do you want to change it?", turn));
+            System.out.println(String.format("\nCurrent turn => (%s), do you want to change it?\n", turn));
             System.out.println("1. Yes");
-            System.out.println("1. No\n");
-            System.out.println("=> ");
+            System.out.println("2. No\n");
+            System.out.print("=> ");
 
 
             try{
@@ -150,8 +179,8 @@ public class handleArray {
 
                 switch (answerC){
                     case 1:
-                        System.out.print("Type the new name: ");
-                        name = in.next();
+                        System.out.print("Type the new turn: ");
+                        turn = in.next();
                         break outerC;
                     case 2:
                         break outerC;

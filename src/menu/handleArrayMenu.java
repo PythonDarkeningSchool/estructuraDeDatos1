@@ -189,12 +189,37 @@ public class handleArrayMenu {
                             }
                         }
 
-
-
                        break;
 
                     case 4:
-                        break outer;
+                        // (replace a user data)
+
+                        while(true){
+                            showArray(arrayList);
+
+                            System.out.print("\n(info) Type the index to replace: ");
+                            try{
+                                int index = in.nextInt();
+
+                                // Check index in range
+                                if((index >= 0) && (index < arrayList.length) && (Array.thisIndexIsNull(index))){
+                                    System.out.println("\n(error) This index does not has data\n");
+                                }
+                                else if((index >= 0) && (index < arrayList.length) && (!Array.thisIndexIsNull(index))){
+                                    Array.replaceSingleUser(index);
+                                    break;
+                                }
+                                else{
+                                    System.out.print("\n(error) Invalid index\n\n");
+                                }
+                            }
+                            catch(InputMismatchException error){
+                                System.out.print("\n(error) Invalid index\n\n");
+                                in.next(); // clear scanner wrong input
+                            }
+                        }
+
+                        break;
                     case 5:
                         showArray(arrayList);
                         break;
