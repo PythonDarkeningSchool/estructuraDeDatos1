@@ -298,7 +298,7 @@ El algoritmo de búsqueda binaria sigue los siguientes pasos:
 
 Suponiendo que se tiene el siguiete arreglo de ejemplo y el valor a buscar es *400*, los pasos para obtener el algoritmo es el siguiente:
 
-![arreglo busqueda binaria](img/arreglo_busqueda_binaria.png)
+![arreglo busqueda binaria](img/arreglo_busqueda_binaria.JPG)
 
 1. Se declara un array de tipo `int` con sus datos ordenados
 2. Se obtiene la mitad del arreglo con la siguiente ecuacion: `límite inferior + límite superior)/2` (el valor obtenido en este paso es *120*)
@@ -332,19 +332,21 @@ Suponiendo que se tiene el siguiete arreglo de ejemplo y el valor a buscar es *4
 
 # Fuentes
 
-[Listas enlazadas simples](http://codigolibre.weebly.com/blog/listas-simples-en-java)
+:link: [Listas enlazadas simples](http://codigolibre.weebly.com/blog/listas-simples-en-java)
 
-[Listas enlazadas dobles](http://coodigob.blogspot.com/2013/03/listas-enlazadas-dobles.html)
+:link :​[Listas enlazadas dobles](http://coodigob.blogspot.com/2013/03/listas-enlazadas-dobles.html)
 
-[Arboles en Java](https://blog.michelletorres.mx/arboles-en-java)
+:link :​[Arboles en Java](https://blog.michelletorres.mx/arboles-en-java)
 
-[Nodos en Java](https://www.lawebdelprogramador.com/foros/Java/853466-Nodos-Java.html)
+:link :​[Nodos en Java](https://www.lawebdelprogramador.com/foros/Java/853466-Nodos-Java.html)
 
-[Metodo de la burbuja](http://puntocomnoesunlenguaje.blogspot.com/2012/07/metodo-de-ordenacion-burbuja.html)
+:link :​[Metodo de la burbuja](http://puntocomnoesunlenguaje.blogspot.com/2012/07/metodo-de-ordenacion-burbuja.html)
 
-[Busqueda binaria](https://devs4j.com/2018/02/02/busqueda-binaria-en-java-paso-a-paso)
+:link :​[Busqueda binaria](https://devs4j.com/2018/02/02/busqueda-binaria-en-java-paso-a-paso)
 
-# Author
+# Autor
 
 Humberto Israel Perez Rodriguez - UTEG
+
+Ingeneria en Computacion
 
