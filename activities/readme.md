@@ -334,15 +334,15 @@ Suponiendo que se tiene el siguiete arreglo de ejemplo y el valor a buscar es *4
 
 :link: [Listas enlazadas simples](http://codigolibre.weebly.com/blog/listas-simples-en-java)
 
-:link :​[Listas enlazadas dobles](http://coodigob.blogspot.com/2013/03/listas-enlazadas-dobles.html)
+:link: [Listas enlazadas dobles](http://coodigob.blogspot.com/2013/03/listas-enlazadas-dobles.html)
 
-:link :​[Arboles en Java](https://blog.michelletorres.mx/arboles-en-java)
+:link: [Arboles en Java](https://blog.michelletorres.mx/arboles-en-java)
 
-:link :​[Nodos en Java](https://www.lawebdelprogramador.com/foros/Java/853466-Nodos-Java.html)
+:link: ​[Nodos en Java](https://www.lawebdelprogramador.com/foros/Java/853466-Nodos-Java.html)
 
-:link :​[Metodo de la burbuja](http://puntocomnoesunlenguaje.blogspot.com/2012/07/metodo-de-ordenacion-burbuja.html)
+:link: ​[Metodo de la burbuja](http://puntocomnoesunlenguaje.blogspot.com/2012/07/metodo-de-ordenacion-burbuja.html)
 
-:link :​[Busqueda binaria](https://devs4j.com/2018/02/02/busqueda-binaria-en-java-paso-a-paso)
+:link: ​[Busqueda binaria](https://devs4j.com/2018/02/02/busqueda-binaria-en-java-paso-a-paso)
 
 # Autor
 
